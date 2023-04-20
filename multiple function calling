@@ -1,0 +1,12 @@
+You can call a Python function automatically after the return of another function by using the return of the previous function as its parameter. Here’s an example:
+
+def func1():
+    return 1
+
+def func2(x):
+    print(x)
+
+func2(func1())
+In this example, func1() returns 1 and passes it as an argument to func2(). func2() then prints out the value of x which is 1.
+
+I hope this helps!
