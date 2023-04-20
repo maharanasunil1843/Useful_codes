@@ -1,0 +1,15 @@
+<!-- This is called template inheritance. This is very useful when we want to create a webpage that inherits
+         all the designs of a present webpage with just a slight change in its components. It uses a language called jinja.
+         Everything written b/w
+         {% block content(here content is a variable and can be anything.It just indicates the name of the block)%}
+         {% endblock %}
+         can be edited while inheriting the current html page.
+         It can be done by using the follwing code while creating a new html file.
+         Ex. New file name is profile.html. Then instead of writing the whole code of html, it can be done in a following manner
+         {% extends "index.html" %}
+         {% block content %}
+         ....new website code....
+         {% endblock %}
+         This will create a new profile.html file with all the components same as index.html but with a change deisgn for the codes
+         written in the block.
+         -->
